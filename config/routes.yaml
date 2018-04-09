@@ -1,0 +1,6 @@
+#index:
+#    path: /
+#    controller: App\Controller\DefaultController::index
+#name:
+#  path: /labas
+#  controller: App\Controller\IndexController::home

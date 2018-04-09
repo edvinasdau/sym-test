@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>{% block title %}Welcome!{% endblock %}</title>
+        {% block stylesheets %}{% endblock %}
+    </head>
+    <body>
+    <h1>My CV</h1>
+    <ul>
+        <li><a href="/index">Main page</a></li>
+        <li><a href="dp">Work experience</a></li>
+        <li><a href="/education">Education</a></li>
+        <li><a href="/contacts">Contacts</a></li>
+        <li><a href="/soft_skills">Skills</a></li>
+        <li><a href="/portfolio">Portfolio</a></li>
+    </ul>
+        {% block body %}
+        {% endblock %}
+        {% block javascripts %}{% endblock %}
+    </body>
+</html>
